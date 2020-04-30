@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class KhachHang
+    public class KhachHang
     {
+        public string ma { get; set; }
+        public string tenCty { get; set; }
+        public string diaChi { get; set; }
+        public string thanhP { get; set; }
+        public string phone { get; set; }
     }
 }
